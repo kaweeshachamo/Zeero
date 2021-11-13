@@ -1,4 +1,4 @@
-FROM KTBwhitedevil:latest
+FROM quay.io/lyfe00011/test:beta
 
 RUN git clone https://github.com/kaweeshachamo/Zeero /root/Zeero
 WORKDIR /root/Zeero/
