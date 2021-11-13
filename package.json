@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kaweeshachamodk/stefanie.git"
+    "url": "git+https://github.com/kaweeshachamo/Zeero.git"
   },
   "keywords": [
     "whatsapp"
@@ -17,9 +17,9 @@
   "developer": "vitus fucker",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Kaweeshachamodk/stefanie/issues"
+    "url": "https://github.com/kaweeshachamo/Zeero/issues"
   },
-  "homepage": "https://github.com/Kaweeshachamodk/stefanie#readme",
+  "homepage": "https://github.com/kaweeshachamo/Zeero#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.2",
     "network-speed": "2.1.1",
