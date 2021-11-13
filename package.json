@@ -2,7 +2,7 @@
   "name": "stefanie",
   "version": "5 First Release",
   "description": "WhatsApp Bot.",
-  "main": "./stefanie/bot.js",
+  "main": "./Zeero/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
