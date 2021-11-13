@@ -1,9 +1,8 @@
 FROM quay.io/lyfe00011/test:beta
 
-RUN git clone https://github.com/kaweeshachamo/Zeero /root/Zeero
-WORKDIR /root/Zeero/
-ENV TZ=Asia/Colombo
-RUN npm install supervisor -g
+RUN git clone https://github.com/kaweeshachamo/Zeero /root/WhatsAsenaDuplicated
+WORKDIR /root/WhatsAsenaDuplicated/
 RUN yarn install --no-audit
-
+RUN git clone https://github.com/kaweeshachamo/Zeero
+RUN cp -R /root/Utils/* /root/WhatsAsenaDuplicated
 CMD ["node", "bot.js"]
